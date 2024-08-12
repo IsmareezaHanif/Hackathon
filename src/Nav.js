@@ -10,10 +10,9 @@ import ChecklistIcon from '@mui/icons-material/Checklist';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import GoogleIcon from '@mui/icons-material/Google';
-
 function Navgo() {
   return (
-    <Navbar expand="lg" bg="info" data-bs-theme="light">
+    <Navbar expand="lg" style={{ backgroundColor: '#778DA9' }}>
       <Container>
         <Navbar.Brand href="/" target="_blank"><img src="shophere.png" alt="Logo" className="d-inline-block align-top" style={{ height: '40px', width: 'auto' }} />ShopHere</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,7 +20,7 @@ function Navgo() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home<><HomeIcon /></></Nav.Link>
             <Nav.Link href="/Product.js">Product<><StorefrontIcon /></></Nav.Link>
-            <Nav.Link href="/Addtocart.js">MakeAList<><ChecklistIcon /></></Nav.Link>
+            <Nav.Link href="/Addtocart.js">Add To Cart<><ChecklistIcon /></></Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.facebook.com/MAXCOMPKTN/" target="_blank">Facebook<><FacebookIcon /></></NavDropdown.Item>
               <NavDropdown.Item href="https://shopee.com.my/btcom.my?is_from_login=true" target="_blank">Shopee<><ShoppingBasketIcon /></></NavDropdown.Item>

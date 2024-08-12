@@ -36,8 +36,8 @@ function Product() {
         </a>
       </div>
       <div>
-        <h1 style={{ textAlign: "center" }}><Badge bg="primary" fortSize="lg">List of the products</Badge></h1>
-        <table className="table table-info table-hover">
+        <h1 style={{ textAlign: "center" }}>List of the products</h1>
+        <table className="table table-info table-hover" style={{ margin: "auto", width: "90%" }}>
           <thead>
             <tr>
               <th scope="col">Name</th>
@@ -65,8 +65,10 @@ function Product() {
         </table>
         <style>{'body{background-color:lightgrey}'}</style>
 
+        <br/>
+
       </div>
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-md-4">
             <div className="card" style={{ width: "18rem" }}>
@@ -144,12 +146,13 @@ function Product() {
             <div className="card" style={{ width: "18rem" }}>
               <img className="card-img-top" src="peti.webp" alt="Card image cap" style={{ height: '120px' }} />
               <div className="card-body">
-                <h5 className="card-title">Energy-Efficient Refrigerator</h5>
+                <h5 className="card-title"> Refrigerator</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <br/>
 
 
 
